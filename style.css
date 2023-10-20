@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Young Serif', serif;
+}
+nav{
+    background-color: rgb(39, 11, 65);
+    display: flex;
+    justify-content: center;
+}
+nav ul{
+    
+    display: flex;
+}
+nav ul li a{
+    justify-content: space-evenly;
+    margin: 30px;
+    color: bisque;
+    font-weight: bolder;
+    text-decoration: none;
+}
+#propic{
+    display: flex;
+    flex-direction: column;
+}
+.proimg img{
+    height: 800px;
+    background-size: contain;
+    background-position: top;
+}
+.overlay{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+}
+h1{
+    color: rgb(50, 78, 114);
+    text-shadow: 4px 5px 3px rgb(5, 5, 0);
+    font-size: 30px;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+}
+#home::before{
+    content: "";
+    background-image: url(https://ei.marketwatch.com/Multimedia/2018/01/09/Photos/NS/MW-FO943_bezos0_20180109165202_NS.png?uuid=53604c6c-f587-11e7-8991-9c8e992d421e);
+    height: 700px;
+    background-position: top ;
+    background-size: contain;
+}
+.main{
+    border: 2px ridge black;
+    padding: 50px;
+    display: flex;
+    position: absolute;
+    top: 1000px;
+    left: 5%;
+    box-shadow: 4px 5px;
+    transition: 0.3s;
+}
+.main:hover{
+    transform: scale(1.2);
+}
+span{
+    color: rgb(211, 198, 18);
+}
+h3{
+
+    text-align: center;
+    color: rgb(171, 182, 14);
+
+}
+.p{
+    display: flex;
+}
+.pic img{
+    width: 500px;
+}
+.pic h4{
+    text-align: center;
+    font-size: x-large;
+    margin: 10px;
+    color: violet;
+}
+.pic p{
+    text-align: justify;
+    margin: 30px;
+}
+.gallery{
+    justify-content: space-between;
+    margin-left: 100px;
+}
+.gallery,img:hover{
+    box-shadow: 3px 4px 5px violet;
+}
+.row{
+    display: flex;
+}
+.box{
+    width: 200px;
+    height: 640px;
+    border:2px ridge violet ;
+    justify-content: space-between;
+    margin: 20px;
+    background: linear-gradient(to top,green 50%, white 50%);
+    background-size: 100% 200%;
+    border-radius: 500px;
+    transition: 0.8s;
+}
+.box:hover{
+    background-position: right bottom;
+    border: none;
+    box-shadow: 3px 5px 6px 2px greenyellow;
+}
+.box img{
+width: 150px;
+height: 40;
+background-size: contain;
+margin-left: 20px;
+margin-top: 20px;
+}
+.box h4{
+    text-align: center;
+    color: rgb(227, 243, 9);
+}
+.box p{
+    text-align: justify;
+    margin: 20px;
+}
+form{
+    width:500px; margin-left: 500px;
+}
+    
+.input{    
+ width: 100%;    
+margin: 10px;
+}
+button{
+    color: rgb(122, 230, 163);
+    background-color: black;
+}
+#bt1{
+background-color: rgb(180, 144, 214);
+color: black;
+border: none;
+border-radius: 25px;
+font-size: x-large;
+width: 300px;
+margin-left: 50px;
+box-shadow: 0px 4px 8px 0px rgb(227, 243, 9);
+}
+#bt1:hover{
+    background-color: aqua;
+}
+#contacts{
+    background-color: aquamarine;
+    text-shadow: 2px 3px 4px black;
+    font-family: 'Shadows Into Light', cursive;
+
+}
